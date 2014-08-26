@@ -2,6 +2,7 @@ Someone returns to the community. Who? Where were they? or You find a body. Do p
 Someone leaves the community after issuing a dire warning. Who? What is the warning? or Someone issues a dire warning
 The strongest among you dies. What caused the death? or The weakest among you dies. Who’s to blame for their death? 
 The Parish arrives. Who are they? Why have they chosen your community
+Introduce a dark mystery among the members of the community. or Conflict flares up among community members
 A project just isn’t working out as expected.
 Radically change the nature of this project (don’t modify the project die). When it resolves
 Add a new Scarcity.
@@ -11,6 +12,7 @@ Harvest is here and plentiful. Add an Abundance. or Cold autumn winds drive out 
 A project finishes early. Which one? Why?
 If there are no projects underway
 Disease spreads through the community. Choose one:
+• You spend the week quarantining and treating the disease. Project dice are not reduced this week. • Nobody knows what to do about it. Add “Health and Fertility” as a Scarcity.
 A natural disaster strikes the area. What is it? Choose one:
 • You focus on getting everyone to safety. Remove an Abundance and a project fails.
 • You focus on protecting your supplies and hard work at any cost. Several people die as a result.

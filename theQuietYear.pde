@@ -1,4 +1,5 @@
 
+Style style;
 
 Deck spring;
 Deck summer;
@@ -11,13 +12,16 @@ int whatSeason = 1;
 
 void setup(){
   
+  style = new Style();
+  style.scheme(2);
+  
   spring = new Deck("Spring");
   summer = new Deck("Summer");
   fall = new Deck("Fall");
   winter = new Deck("Winter");
   
   size(450,600);
-  background(80,80,80);
+  background(style.c1);
  
   spring.restoreDeckState();
   summer.restoreDeckState();
@@ -30,8 +34,7 @@ void setup(){
 
 void draw(){
   
-  //background(80,80,80);
-  
+ 
   //spring -------------------------
   if (whatSeason == 1){
     
@@ -52,7 +55,7 @@ void draw(){
     if(summer.initialized==false){
       summer.init(); //load the deck if it hasn't already been loaded
     }
-    
+  
   textSize(20);
   text("It is Summer", 50, 40);
   summer.display();

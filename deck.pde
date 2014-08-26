@@ -62,7 +62,6 @@ void display(){
   textSize(textS/1.5);
   text("Reshuffle", buttX2+buttY2/8, buttY2+buttH2/1.5);
 
-  
 
 }
 
@@ -85,7 +84,7 @@ void update(){
 void getCard(){
  
   if(cards.size() == 0){
-    background(80,80,80);
+//    background(80,80,80);
 //    textSize(textS/1.5);
 //    text("All Cards Have Been Dealt", textX, textY);
     cardsLeft = false;
@@ -97,7 +96,7 @@ void getCard(){
   String myCard = (cards.get(index));  
  // String[] list = split(myCard, " or ");
   
-  background(80,80,80);
+  background(style.c1);  
   textSize(textS);
   text(myCard, textX, textY, textW, textH);
 //  text(list[0], textX, textY, textW, textH);
@@ -144,7 +143,7 @@ void reshuffle(){
   saveTextFile();
   cardsLeft = true;
   
-  background(80,80,80);
+//  background(80,80,80);
   textSize(textS);
   text("The Deck has been reshuffled", textX, textY);
   
@@ -154,7 +153,6 @@ void reshuffle(){
 
 void restoreDeckState(){
   
-  background(80,80,80);
   fill(0,0,0);
   textSize(40);
 //  text("LOADING DECK", textX, textY);
